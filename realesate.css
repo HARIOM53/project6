@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+}
+header {
+    margin: 0px 150px 20px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #fff;
+}
+.headerlogo {
+    background-color: transparent;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li {
+    padding: 20px;
+    cursor: pointer;
+}
+header ul li a {
+    color: #fff;
+}
+.header {
+    color: #fff;
+    text-align: start;
+    height: 820px;
+    background-image: url(https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Real%20Estate/Photos/mainBackground.png?raw=true);
+}
+.header h1 {
+    margin-left: 200px;
+    margin-top: 90px;
+    font-size: 4em;
+}
+.header p {
+    margin: 30px 0 20px 200px;
+    
+}
+.header button {
+    margin-left: 200px; 
+    background-color: #738bf8;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-color: #738bf8;
+}
+.logoname {
+    text-align: center;
+    background-color: #fff;
+    margin: -45px 40px 50px 40px;
+    border-radius: 15px;
+}
+.logoname img {
+    margin-top: 25px;
+    padding: 0 20px 0 20px;
+}
+.cardheader {
+    font-size: 2em;
+    text-align: center;
+    margin: 70px 0 50px 0;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ .cardimage1 img,
+ .cardimage2 img,
+ .cardimage3 img,
+ .cardimage4 img,
+ .cardimage5 img,
+ .cardimage6 img,
+ .cardimage7 img,
+ .cardimage8 img,
+ .cardimage9 img {
+    border-radius: 20px;
+    z-index: -1;
+    position: relative;
+ }
+ .cardimage1 div,
+ .cardimage2 div,
+ .cardimage3 div,
+ .cardimage4 div,
+ .cardimage5 div,
+ .cardimage6 div,
+ .cardimage7 div,
+ .cardimage8 div,
+ .cardimage9 div
+ {
+    height: 80px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.cardimage1 h5,
+ .cardimage2 h5,
+ .cardimage3 h5,
+ .cardimage4 h5,
+ .cardimage5 h5,
+ .cardimage6 h5,
+ .cardimage7 h5,
+ .cardimage8 h5,
+ .cardimage9 h5{
+    padding-left: 10px;
+}
+
+.cardimage1 button,
+ .cardimage2 button,
+ .cardimage3 button,
+ .cardimage4 button,
+ .cardimage5 button,
+ .cardimage6 button,
+ .cardimage7 button,
+ .cardimage8 button,
+ .cardimage9 button {
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background-color: #738bf8;
+    border: #738bf8;
+    color: #fff;
+    cursor: pointer;
+}
+ .cardimage1 {
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+.cardimage2 {
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.cardimage3 {
+    margin-top: -40px;
+    margin-bottom: 100px;
+
+}
+.cardimage4 {
+    margin-bottom: 100px;
+
+}
+.cardimage5 {
+    margin-bottom: 100px;
+}
+.cardimage6 {
+    margin-bottom: 100px;
+
+}
+.cardimage7 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.cardimage8 {
+    margin-top: -40px;
+    margin-bottom: 100px;
+
+}
+.cardimage9{
+    margin-top: 40px;
+    margin-bottom: 100px;   
+}
+.affortablehouse {
+    display: flex;
+}
+.featuresImage1 {
+    position: relative;
+    z-index: 1;
+    margin-left: 140px;
+    border-radius: 30px;
+}
+.featureImageBg1 {
+    margin-top: -430px;
+    z-index: 0px;
+}
+.detail {
+    margin-top: 235px;
+    text-align: start;
+}
+.detail h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.detail p {
+    margin-bottom: 15px;
+}
+.detail button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: #738bf8;
+    background-color: #738bf8;
+    cursor: pointer;
+}
+.uniquehouse {
+    display: flex;
+    /* margin-bottom: 80px; */
+    margin: 80px 0 80px 0;
+}
+.featuresImage2 {
+    position: relative;
+    z-index: 1;
+    margin-left: -100px;
+    margin-right: -565px;
+    border-radius: 30px;
+    margin-top: -70px;
+}
+.featureImageBg2 {
+    z-index: 0;
+    position: absolute;
+}
+.detail-1 {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 200px;
+    margin-right: 90px;
+}
+.detail-1 h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.detail-1 p {
+    margin-bottom: 20px;
+}
+.detail-1 button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: #738bf8;
+    background-color: #738bf8;
+    cursor: pointer;
+}
+.subscribesection {
+    margin: 150px 100px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #738bf8;
+    text-align: center;
+}
+.subscribesection h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.subscribesection p {
+    margin-bottom: 20px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail input {
+    background-color: #526ff1;
+    padding: 5px 20px;
+    border: #526ff1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+} 
+.mail img {
+    background-color: #526ff1;
+    padding: 1px 20px;
+    border: #526ff1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.mail button {
+    background-color: #fff;
+    border: #fff;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+.footer li {
+    list-style: none;
+    cursor: pointer;
+}
+.footerlogo img ,p {
+    padding: 10px;
+}
+.location h4 ,li {
+    padding: 4px;
+}
+.contect h4 ,li {
+    padding: 4px;
+}
+.legals h4 ,li {
+    padding: 4px;
+}

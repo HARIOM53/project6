@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #b6afaf;
+}
+header {
+    margin: 20px 200px;
+}
+.logo {
+    float: left;
+}
+header ul {
+    float: right;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul li {
+    padding: 20px;
+}
+.main {
+    display: flex;
+    height: 100vh;
+}
+.main-right {
+    height: 100vh;
+    align-self: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.greenbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 20px;
+    z-index: 0;
+    right: 40px;
+}
+.yellowbox {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+    z-index: -1;
+}
+.doctor {
+    position: absolute;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+.main-left {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    position: relative;
+    margin-top: 300px;
+    margin-left: -200px;
+}
+.heading h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    display: block;
+}
+.heading p {
+    display: block;
+    margin-bottom: 15px;
+}
+.btn {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: rgb(17, 148, 50, 0.918);
+    width:200px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.stethoscope {
+    position: absolute;
+   margin-left: -100px;
+   margin-top: 150px;
+}
+.topangle {
+    position: absolute;
+     margin-left: -200px;
+   margin-top: 250px;
+}
+.bottomangle {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 530px;
+}
+.mouse {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 570px;
+}
